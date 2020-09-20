@@ -1,0 +1,22 @@
+input = [random.randint(-1000,1000) for _ in range(1_000_000)]
+
+
+input = [random.randint(-1000,1000) for _ in range(1_000_00)]
+Elapsed time 1 tic/toc 0.0346 seconds
+Elapsed time 2 tic/toc 452.2556 seconds
+
+input = [random.randint(-1000,1000) for _ in range(1_000_0)]
+Elapsed time 1 tic/toc 0.0098 seconds
+Elapsed time 2 tic/toc 2.1477 seconds
+
+input = [random.randint(-1000,1000) for _ in range(1_000)]
+Elapsed time 1 tic/toc 0.0130 seconds
+Elapsed time 2 tic/toc 0.0300 seconds
+
+input = [random.randint(-1000,1000) for _ in range(1_00)]
+Elapsed time 1 tic/toc 0.0143 seconds
+Elapsed time 2 tic/toc 0.0135 seconds
+
+input = [random.randint(-1000,1000) for _ in range(1_0)]
+Elapsed time 1 tic/toc 0.0091 seconds
+Elapsed time 2 tic/toc 0.0095 seconds
