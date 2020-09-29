@@ -1,13 +1,13 @@
 import numpy as np
 
-# Time complexity - O(N) = N squared log N
+# Time complexity - O(N log N)
 def run(input):
     output = []
     for inputElement in input:
         output.append(inputElement * inputElement)
     return np.sort(output)
 
-# Time complexity - O(N) = N power N
+# Time complexity - O(N ^ 2)
 def runInOnePass(input):
     output = []
     isFirstElement = True
