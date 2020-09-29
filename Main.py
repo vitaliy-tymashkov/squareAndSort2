@@ -4,7 +4,7 @@ import time
 
 # input = [-9, -2, 0, 2, 3]
 # input = [-11, -10, -9, -2, 0, 2, 3, 66, 88]
-input = [random.randint(-1000,1000) for _ in range(1_000)]
+input = [random.randint(-1_000_000,1_000_000) for _ in range(1_000)]
 
 output1 = []
 output2 = []
