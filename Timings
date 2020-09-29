@@ -1,5 +1,6 @@
 input = [random.randint(-1000,1000) for _ in range(1_000_000)]
-
+Elapsed time 1 tic/toc 0.2572 seconds
+Elapsed time 2 tic/toc ?????? seconds
 
 input = [random.randint(-1000,1000) for _ in range(1_000_00)]
 Elapsed time 1 tic/toc 0.0346 seconds

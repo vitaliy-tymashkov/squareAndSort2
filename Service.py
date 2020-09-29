@@ -1,6 +1,6 @@
 import numpy as np
 
-# Time complexity - O(N log N)
+# Time complexity - O(N + log N) = O(N)
 def run(input):
     output = []
     for inputElement in input:
